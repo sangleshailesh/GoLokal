@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Multi Step Form |</title>
+    <link rel="stylesheet" href="business.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="groccery-navbar">
+      <div class="my-container navbar-container">
+        <h1 class="logo"><span class="circular"></span> &nbsp; Title</h1>
+        <ul class="menu-items">
+          <li>
+            <a href="#"><span>Home</span></a>
+          </li>
+          <li>
+            <a href="#"><span>Explore</span></a>
+          </li>
+          <li>
+            <a class="bottom-line" href="#"><span>Business</span></a>
+          </li>
+          <li>
+            <a href="#"><span>Login/Signup</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="form-body">
+      <div class="container">
+        <!-- <header>Signup Form</header> -->
+        <div class="progress-bar navbar-disable-address" id="nav-progress-bar">
+          <div class="step">
+            <div class="bullet first-bullet-status">
+              <span>1</span>
+            </div>
+            <p class="first-para-status">Step 1</p>
+            <!-- <div class="check fas fa-check"></div> -->
+            <img class="check" src="tick icon_selected.svg" alt="">
+          </div>
+          <div class="step">
+            <div class="bullet second-bullet-status">
+              <span>2</span>
+            </div>
+            <p class="second-para-status">Step 2</p>
+            <!-- <div class="check fas fa-check"></div> -->
+            <img class="check" src="tick icon_selected.svg" alt="">
+          </div>
+          <div class="step">
+            <div class="bullet third-bullet-status">
+              <span>3</span>
+            </div>
+            <p class="third-para-status">Step 3</p>
+            <!-- <div class="check fas fa-check"></div> -->
+            <img class="check" src="tick icon_selected.svg" alt="">
+          </div>
+          <div class="step">
+            <div class="bullet fourth-bullet-status">
+              <span>4</span>
+            </div>
+            <p class="fourth-para-status">Step 4</p>
+            <!-- <div class="check fas fa-check"></div> -->
+            <img class="check" src="tick icon_selected.svg" alt="">
+          </div>
+        </div>
+        <div class="form-outer">
+          <form>
+            <div class="page slide-page">
+              <div class="front-page">
+                <h1>Welcome to GoLokal</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadiadp ab elitr, sed
+                  diam nonumy eirmod tempororyaef invidunt. it amet, consetetur
+                  sadiadp ab elitr, sed diam nonumy eirmod tempororyaef fasd
+                  invidunt.
+                </p>
+                <button class="lets-start">Let’s Start</button>
+              </div>
+            </div>
+
+            <div class="page">
+              <div class="form-width">
+                <div class="title">Business/Service details</div>
+                <div class="field">
+                  <!-- <div class="label">First Name</div> -->
+                  <input type="text" placeholder="Owner name" required />
+                </div>
+                <div class="field">
+                  <!-- <div class="label">Last Name</div> -->
+                  <input type="text" placeholder="Business name" />
+                </div>
+                <div class="field">
+                  <img src="Dropdoen icon.svg" alt="">
+                  <select name="" id="">
+                    <option value="">Business/Service category</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <img src="Add photo icon.svg" alt="">
+                  <input type="text" placeholder="Business photos" />
+                </div>
+                <div class="field">
+                  <select name="" id="">
+                    <option value="">Business/Service timings</option>
+                  </select>
+                </div>
+              </div>
+              <div class="side-field">
+                <button class="firstNext next">Next</button>
+              </div>
+            </div>
+
+            <div class="page">
+              <div class="form-width">
+                <div class="title">Contact details</div>
+                <div class="field">
+                  <!-- <div class="label">Email Address</div> -->
+                  <input type="number" placeholder="Mobile number" />
+                </div>
+                <div class="field">
+                  <!-- <div class="label">Phone Number</div> -->
+                  <input type="text" placeholder="Email ID" />
+                </div>
+                <div class="field">
+                  <!-- <div class="label">Phone Number</div> -->
+                  <input type="text" placeholder="WhatsApp number" />
+                </div>
+                <div class="field">
+                  <!-- <div class="label">Phone Number</div> -->
+                  <input type="text" placeholder="Website/Social media links" />
+                </div>
+              </div>
+              <div class="second-side-field btns">
+                <button class="prev-1 prev">Previous</button>
+                <button class="next-1 next">Next</button>
+              </div>
+            </div>
+
+            <div class="page">
+              <div class="form-width">
+                <div class="title">Address details</div>
+                <div class="address-title">
+                  <p>What is area of operation of your business/service?</p>
+                </div>
+                <div class="check-line-first">
+                  <div class="check-box">
+                    <div class="group">
+                      <input
+                        type="checkbox"
+                        id="offline"
+                        name="myCheckbox"
+                        value="offline"
+                        onclick="offLine(this)"
+                      />
+                      <label for="offline">Offline</label>
+                    </div>
+
+                    <div class="group">
+                      <input
+                        type="checkbox"
+                        id="online"
+                        name="myCheckbox"
+                        value="online"
+                        onclick="onLine(this)"
+                      />
+                      <label for="online">Online</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- -------------------- online ------------------------- -->
+
+                <!-- ------------- offline code from js ---------- -->
+
+                <div class="disable-address" id="detail-address">
+                  <div class="check-line-second">
+                    <div class="check-box">
+                      <div class="group">
+                        <input
+                          type="checkbox"
+                          id="AToB"
+                          name="detailAddress"
+                          value="AToB"
+                          onclick="aToB(this)"
+                        />
+                        <label for="AToB">A to B</label>
+                      </div>
+
+                      <div class="group">
+                        <input
+                          type="checkbox"
+                          id="Area"
+                          name="detailAddress"
+                          value="Area"
+                          onclick="addressArea(this)"
+                        />
+                        <label for="Area">Area</label>
+                      </div>
+
+                      <div class="group">
+                        <input
+                          type="checkbox"
+                          id="fullCity"
+                          name="detailAddress"
+                          value="fullCity"
+                          onclick="addressFullCity(this)"
+                        />
+                        <label for="fullCity">Full city</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="detail-a-to-b" class="disable-address gray-line">
+                  <div class="field">
+                    <input type="text" placeholder="Form" />
+                  </div>
+                  <div class="field">
+                    <input type="text" placeholder="To" />
+                  </div>
+                </div>
+
+                <div id="detail-area" class="disable-address gray-line">
+                  <div class="field">
+                    <input type="text" placeholder="Address line" />
+                  </div>
+                  <div class="field">
+                    <input type="text" placeholder="Area/Town/City" />
+                  </div>
+                  <div class="field">
+                    <input type="text" placeholder="Landmark" />
+                  </div>
+                  <div class="field">
+                    <input type="text" placeholder="Pincode" />
+                  </div>
+                </div>
+
+                <div id="detail-fullcity" class="disable-address gray-line">
+                  <div class="field">
+                    <input type="text" placeholder="Full Address" />
+                  </div>
+                </div>
+
+                <!-- ------------------ offline end --------------------- -->
+              </div>
+              <div class="second-side-field btns">
+                <button class="prev-2 prev">Previous</button>
+                <button class="next-2 next">Next</button>
+              </div>
+            </div>
+
+            <div class="page">
+              <div class="form-width">
+                <div class="title">Verification details</div>
+                <div class="field">
+                  <!-- <div class="label">Username</div> -->
+                  <input type="text" placeholder="Aadhaar card number" />
+                  <span class="upload-image">Upload image</span>
+                </div>
+                <div class="field">
+                  <!-- <div class="label">Password</div> -->
+                  <input type="password" placeholder="PAN card number" />
+                </div>
+                <div class="field">
+                  <!-- <div class="label">Password</div> -->
+                  <input
+                    type="password"
+                    placeholder="Registered business proof"
+                  />
+                </div>
+                <div class="field">
+                  <!-- <div class="label">Password</div> -->
+                  <input type="password" placeholder="Devotee reference name" />
+                </div>
+                <div class="field">
+                  <!-- <div class="label">Password</div> -->
+                  <input
+                    type="password"
+                    placeholder="Devotee reference contact"
+                  />
+                </div>
+                <div class="field">
+                  <select>
+                    <option>Connected to Temple/Bace/Center</option>
+                  </select>
+                </div>
+              </div>
+              <div class="second-side-field btns">
+                <button class="prev-3 prev">Previous</button>
+                <button class="submit">Submit</button>
+              </div>
+            </div>
+            <div class="page">
+              <div class="submit-page">
+                <img src="check-circle.svg" alt="" />
+                <h1>Application submitted successfully!</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadiadp ab elitr, sed
+                  diam nonumy eirmod tempororyaef invidunt. it amet, consetetur
+                  sadiadp ab
+                </p>
+                <span>Ref. no. 300878701</span>
+                <button class="done">Done</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------- footer ---------------------  -->
+
+    <footer class="footer">
+      <div class="footer-left">
+        <p>FAQs</p>
+        <p>Privacy policies</p>
+      </div>
+      <div class="footer-center">
+        <p>About Us</p>
+        <p>Contact Us</p>
+      </div>
+      <div class="footer-right">
+        <p>Follow Us on</p>
+        <a href="https://www.facebook.com/profile.php?id=100007581765090" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://twitter.com/SangleShailesh" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://www.instagram.com/sangleshailesh?r=nametag" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+      </div>
+    </footer>
+    <script src="business.js"></script>
+  </body>
+</html>

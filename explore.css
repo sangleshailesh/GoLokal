@@ -1,0 +1,657 @@
+.breadcrumb {
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    color: #002668;
+    font-size: 24px;
+}
+
+.breadcrumb span{
+    color: #29436e65
+}
+
+/* ----------------------------- carousel start ------------------------------- */
+.slideshow-container {
+    margin-top: 2.8rem;
+    margin-bottom: 4.8rem;
+    border: 2px solid red;
+    width: 100%;
+    height: 587px;
+    position: relative;
+    
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    height: 587px;
+  }
+
+  .mySlides img {
+      width: 100%;
+      height: 100%;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  /* .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  } */
+
+  /* Caption text */
+  .text {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 36px;
+    right: 25px;
+    text-align: center;
+  }
+
+  .banner-rat{
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 10px;
+    right: 28px;   
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .videotext{
+    position: absolute;
+    top: 35px;
+    right: 88px;
+  }
+
+  .videotext img{
+      width: 37px;
+      height: 25px;
+  }
+
+  .videotext span{
+    position: absolute;
+    font-size: 1.6rem;
+    left: 10px;
+    top: 2px;
+  }
+  
+  .numbertext {
+    position: absolute;
+    top: 35px;
+    right: 32px;
+  }
+
+  .numbertext img{
+    width: 33px;
+    height: 33px;
+  }
+
+  .numbertext span{
+    position: absolute;
+    font-size: 1.6rem;
+    left: 15px;
+    top: 4px;
+  }
+
+  /* The dots/bullets/indicators */
+
+  .active{
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+/* ----------------------------- carousel end ------------------------------- */
+
+/* ------------------------------------- below shop name styling ------------------------------ */
+
+.shop-status{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+
+.shop-name{
+    display: flex;
+}
+
+.shop-name p:first-child{
+    color: #151515;
+    font-size: 40px;
+    margin-right: 2rem;
+}
+
+.shop-name p:nth-child(2){
+    background: #00B812;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    padding-top: 5px;
+    text-align: center;
+    margin-top: 0.7rem;
+    height: 32px;
+    width: 114px;
+}
+
+.shop-details {
+    display: flex;
+}
+
+.share-icon, .save-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #002668;
+    border-radius: 12px;
+    width: 107px;
+    height: 40px;
+    margin-right: 2rem;
+}
+
+.share-icon p, .save-icon p{
+    color: #505050;
+    font-size: 16px;
+    margin-left: 1.3rem;
+}
+
+.address{
+    margin-top: 2rem;
+    margin-bottom: 3.2rem;
+    font-size: 2.8rem;
+    color: #505050;
+    font-weight: normal;
+}
+
+/* ------------------------------------------ About us section styling ------------------------- */
+.about-grid{
+    margin-top: 3.5rem;
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    'about-section map'
+    'timing map';
+}
+
+.about-us{
+    grid-area: about-section;
+}
+
+.timening{
+    grid-area: timing;
+}
+
+.contact-us{
+    grid-area: map;
+}
+
+/* ------------------------- about us styaling ------------- */
+
+.about-us h4 {
+    font-size: 30px;
+    color: #151515;
+}
+
+.about-us p {
+    /* border: 2px solid blue; */
+    margin-top:2rem;
+    font-size: 24px;
+    color: #505050;
+    width: 838px;
+    font-weight: normal;
+}
+
+/* ---------------- timeing styaling ------------------ */
+
+.timening h4{
+    margin-top: 4rem;
+    margin-bottom: 2.4rem;
+    font-size: 30px;
+    color: #151515;
+    font-weight: normal;
+}
+
+.timening h2{
+    font-size: 20px;
+    line-height: 30px;
+    color: #151515;
+}
+
+.weekday{
+    display: flex;
+    margin-top: 0.8rem;
+}
+
+
+.weekly-closed {
+    margin-right: 4.5rem;
+    text-align: center;
+}
+
+.weekly-closed p{
+    font-size: 16px;
+    color: #6E6E6E;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.weekly-closed span{
+    font-size: 16px;
+    color: #151515;
+    line-height: 30px;
+    font-weight: normal;
+} 
+
+
+.shop-time h2{
+    font-size: 20px;
+    line-height: 30px;
+    color: #151515;
+    margin-top: 2.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.shop-time p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #151515;
+    font-weight: normal;
+}
+
+
+/* ------------------------- conact us map styling ---------------------- */
+
+.contact-us h4{
+    font-size: 3rem;
+    color: #151515;
+    margin-bottom: 2.1rem;
+    font-weight: normal;
+}
+
+.building-map{
+    width: 431px;
+    height: 487px;
+    font-weight: normal;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    position: relative;
+}
+
+.get-direction{
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 209px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 30px;
+    color: #002668;
+    text-align: center;
+    border: 1px solid #002668;
+    position: absolute;
+    top: 46%;
+    left: 28%;
+}
+
+.gm-style .gm-style-cc button, .gm-style .gm-style-cc a, .gm-style .gm-style-cc span {
+    display: none !important;
+}
+
+.get-direction a{
+    vertical-align: text-top;
+}
+
+
+.split-map{
+    width: 429px;
+    height: 273px;
+    border-radius: 8px;
+    /* border: 2px solid green; */
+}
+
+.coustomer-details p{
+    font-size: 1.6rem;
+}
+
+.contactus-address{
+    display: flex;
+    margin: 2rem 2rem 0 2rem; 
+    padding-bottom: 2rem; 
+    border-bottom:  0.5px solid #505050; 
+}
+
+.contactus-address p {
+    margin-left: 1.6rem;
+}
+
+.contactus-phone{
+    display: flex;
+    margin: 2rem 2rem 0 2rem; 
+    padding-bottom: 2rem; 
+    border-bottom:  0.5px solid #505050; 
+}
+
+.contactus-phone p {
+    margin-left: 1.6rem;
+}
+
+.contactus-website{
+    display: flex;
+    margin: 2rem 2rem 0 2rem; 
+}
+
+.contactus-website p {
+    margin-left: 1.6rem;
+}
+
+/* ----------------------------------- similar buisness syyaling ----------------------------------- */
+.similar-businesses-section{
+    margin-top: 0.9rem;
+    margin-bottom: 7.2rem;
+}
+
+.similar-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.similar-businesses-section h4{
+    font-size: 30px;
+    color: #151515;
+    margin-bottom: 3.2rem;
+    font-weight: normal;
+}
+
+.first-business{
+    width: 252px;
+    height: 309px;
+    background: #FFFFFF;
+    /* border: 1px solid #000000; */
+    border-radius: 8px;
+}
+
+.first-business img {
+    width: 100%;
+    height: 80%;
+    border-radius: 8px;
+}
+
+.business-name p:first-child {
+    margin-top: 1rem;
+    margin-left: 1.4rem;
+    font-size: 2rem;
+}
+
+.business-name p:nth-child(2) {
+    margin-left: 1.4rem;
+    margin-top: 0.6rem;
+    font-size: 1.2rem;
+}
+
+/* -------------------------------------- coutomer rating review section------------------------------- */
+
+.coustomer-rating-review{
+    font-weight: normal;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    grid-template-rows: 1.5fr auto;
+    grid-template-areas: 
+    'row-rating customer-review'
+    'star-rating customer-review';
+}
+
+.coustomer-rating{
+    grid-area: row-rating;
+}
+.star-rating{
+    grid-area: star-rating;
+    /* border: 2px solid red; */
+}
+.coustomer-review{
+    grid-area: customer-review;
+    /* border: 2px solid green; */
+}
+
+.coustomer-rating h3{
+    font-size: 3.0rem;
+    margin-bottom: 2.8rem;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+
+/* -------------------------- total rating star section ------------------------ */
+.total-rating{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.total-rating p{
+    font-size: 3rem;
+    margin-left: 0.2rem;
+}
+
+.total-rating .rating-count{
+    font-size: 1.6rem;
+    margin-left: 1rem;
+}
+
+.total-rating-star{
+    margin-top: 2.8rem;
+    margin-bottom: 1.9rem;
+}
+
+.total-rating-star .fas{
+    margin-right: 1rem;
+    font-size: 2.5rem;
+    color: #D9DD00;
+}
+
+/* ---------------------- horizotanl progress bar section -------------- */
+
+.myProgress {
+    width: 320px;
+    background-color: #D8D8D8;
+    border-radius: 4px;
+    margin: 0 1.6rem;
+  }
+
+  .myBar, .myBar2 {
+      width: 50%;
+      height: 24px;
+      background-color: #002668;
+      border-radius: 4px 0px 0px 4px;
+      -webkit-border-radius: 4px 0px 0px 4px;
+      -moz-border-radius: 4px 0px 0px 4px;
+      -ms-border-radius: 4px 0px 0px 4px;
+      -o-border-radius: 4px 0px 0px 4px;
+}
+
+  .five-star{
+      margin-top: 2rem;
+      display: flex;
+  }
+
+  .five-star span {
+      color: #151515;
+      font-size: 1.6rem;
+  }
+
+/* --------------- star rating ---------------- */
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .rating-stars ul > li.star {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  /* Idle State of the stars */
+  .rating-stars ul > li.star > i.fa {
+    font-size: 4rem; /* Change the size of the stars */
+    color: #ffffff; /* Color on idle state */
+  }
+
+  /* Hover state of the stars */
+  .rating-stars ul > li.star.hover > i.fa {
+    color: #ffcc36;
+  }
+
+  /* Selected state of the stars */
+  .rating-stars ul > li.star.selected > i.fa {
+    color: #ff912c;
+  }
+
+.star-rating h2{
+    font-size: 3.0rem;
+    font-weight: normal;
+    margin-bottom: 1.8rem;
+    margin-top: 7rem;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.coustomer-review h3{
+    font-size: 3rem;
+    margin-bottom: 4.1rem;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.first-review h2, .second-review h2{
+    font-size: 2rem;
+    margin-bottom: 2.3rem; 
+    line-height: 30px;
+    font-weight: normal; 
+}
+
+.first-review span, .second-review span{
+    font-size: 1.2rem;
+}
+
+.first-review h4, .second-review h4{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.first-review p, .second-review p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #505050;
+    margin-bottom: 2.1rem;
+    line-height: 24px;
+}
+
+.show-more-review{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2.1rem;
+}
+
+.show-more-review p{
+    font-size: 2rem;
+    color: #002668;
+    margin-right: 1rem;
+}
+
+/* ------------------------------ write review section ---------------------------------------------- */
+
+.write-review{
+    margin-top: 6.3rem;
+    position: relative;
+}
+.write-review h2{
+    font-size: 3rem;
+    margin-bottom: 2.8rem;
+    font-weight: normal;
+}
+
+.write-review textarea{
+    width: 1360px;
+    height: 237px;
+    border: 0.5px solid #000000;
+    border-radius: 8px;
+    padding: 3rem;
+    resize: none;
+}
+
+.write-review .button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#the-count {
+    /* float: right; */
+    position:absolute;
+    top: 75px;
+    right: 15px;
+    padding: 0.1rem 0 0 0;   
+    font-size: 1.2rem;
+}
+
+.button button, .button input{
+    background: #FFFFFF;
+    border: 1px solid #002668;
+    border-radius: 12px;
+    width: 107px;
+    height: 40px;
+    font-size: 1.6rem;
+    color: #505050;
+    margin-top: 2.7rem;
+    cursor: pointer;
+}
+
+.button .disable{
+    cursor: not-allowed;
+}
