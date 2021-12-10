@@ -1,40 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 *,
 *::after,
-*::before{
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
 }
 
-body{
-  background: #E5E5E5;
+body {
+  background: #e5e5e5;
 }
 
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.form-body{
+.form-body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  overflow-x: hidden ;
+  overflow-x: hidden;
   /* overflow: hidden;  */
   /* background: url("bg.png"), -webkit-linear-gradient(bottom, #0250c5, #d43f8d); */
 }
-::selection{
+::selection {
   color: #fff;
   background: #d43f8d;
 }
 
 /* --------------- navbar start --------------- */
 
-.groccery-navbar{
+.groccery-navbar {
   background: #002668;
   height: 96px;
   width: 100%;
@@ -94,32 +94,31 @@ html {
   color: #d8d8d8;
 }
 
-.bottom-line{
+.bottom-line {
   padding-bottom: 8px;
   border-bottom: 2px solid #ffffff;
 }
 
 /* ------------------ navbar end ------------------ */
 
-
 /* ########################## Footer styling ########################  */
 
-.footer{
+.footer {
   height: 157px;
   background-color: #212121;
-  font-size:  2rem;
+  font-size: 2rem;
   color: white;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto;
   align-items: end;
-  justify-content: space-around ;
+  justify-content: space-around;
   margin-top: 75px;
 }
 
 /* ----------------------- footer end ----------------------------- */
 
-.container{
+.container {
   /* width: 330px;
   background: #fff;
   text-align: center;
@@ -132,17 +131,18 @@ html {
   font-weight: 600;
   margin: 0 0 30px 0;
 } */
-.container .form-outer{
+.container .form-outer {
   width: 100%;
-  /* overflow: hidden; */
+  overflow: scroll;
 }
-.container .form-outer form{
+.container .form-outer form {
   display: flex;
-  width: 600%;
+  width: 900%;
 }
-.form-outer form .page{
-  /*border: 2px solid green;
-  */width: 25%;
+.form-outer form .page {
+  border: 2px solid green;
+
+  width: 25%;
   transition: margin-left 0.5s ease-in-out;
   -webkit-transition: margin-left 0.5s ease-in-out;
   -moz-transition: margin-left 0.5s ease-in-out;
@@ -150,11 +150,11 @@ html {
   -o-transition: margin-left 0.5s ease-in-out;
 }
 
-.page .form-width{
+.page .form-width {
   /* border: 2px solid red; */
   width: 525px;
   height: auto; /* 581px; */
-  background: #FFFFFF;
+  background: #ffffff;
   border: 2px solid #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
@@ -167,7 +167,7 @@ html {
   padding-bottom: 16px;
 }
 
-.form-outer form .page .title{
+.form-outer form .page .title {
   text-align: left;
   font-size: 24px;
   font-weight: 500;
@@ -175,7 +175,7 @@ html {
   margin: 32px 0 0 32px;
 }
 
-.form-outer form .page .field{
+.form-outer form .page .field {
   width: 463px;
   height: 82px;
   text-align: center;
@@ -186,18 +186,17 @@ html {
   position: relative;
 }
 
-
-form .page .field input{
+form .page .field input {
   height: 100%;
   width: 100%;
-  border: 0.5px solid #C4C4C4;
+  border: 0.5px solid #c4c4c4;
   border-radius: 8px;
   padding-left: 15px;
   font-size: 20px;
-  color: #6E6E6E;
+  color: #6e6e6e;
 }
 
-.field .upload-image{
+.field .upload-image {
   font-size: 16px;
   line-height: 19px;
   color: #002668;
@@ -206,17 +205,17 @@ form .page .field input{
   top: 30px;
 }
 
-form .page .field select{
+form .page .field select {
   width: 100%;
   padding-left: 10px;
   font-weight: 500;
   font-size: 20px;
-  color: #6E6E6E;
-  border: 0.5px solid #C4C4C4;
+  color: #6e6e6e;
+  border: 0.5px solid #c4c4c4;
   border-radius: 8px;
 }
 
-.field img{
+.field img {
   width: 24.48px;
   height: 24.48px;
   position: absolute;
@@ -224,13 +223,13 @@ form .page .field select{
   top: 30px;
 }
 
-.side-field{
-    width: 525px;
-    /* border: 2px solid red; */
-    margin: 0 auto; 
+.side-field {
+  width: 525px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
 }
 
-.side-field button{
+.side-field button {
   width: 100%;
   height: 60px;
   border: none;
@@ -254,15 +253,15 @@ form .page .field select{
   -o-transition: 0.5s ease;
 }
 
-.side-field button:hover{
-  background: #234B90;
+.side-field button:hover {
+  background: #234b90;
 }
 
-.second-side-field{
-    width: 525px;
-    height: 60px;
-    /* border: 2px solid red; */
-    margin: 0 auto; 
+.second-side-field {
+  width: 525px;
+  height: 60px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
 }
 
 .second-side-field button {
@@ -279,66 +278,67 @@ form .page .field select{
   -webkit-transition: 0.5s ease;
   -moz-transition: 0.5s ease;
   -ms-transition: 0.5s ease;
-  -o-transition: 0.5s ease;  
+  -o-transition: 0.5s ease;
 }
 
-.second-side-field .prev{
+.second-side-field .prev {
   color: #002668;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
-.second-side-field .next, .second-side-field .submit{
-  color: #FFFFFF;
+.second-side-field .next,
+.second-side-field .submit {
+  color: #ffffff;
   background: #002668;
   margin-left: 12px;
 }
 
-form .page .btns button.next{
+form .page .btns button.next {
   margin-left: 12px;
 }
 
-.container .progress-bar{
+.container .progress-bar {
   display: flex;
   /* margin: 40px 0; */
   user-select: none;
   /* border: 2px solid red; */
   border: 2px solid #ffffff;
   width: 525px;
-  height: 116px;  
-  background: #FFFFFF;
+  height: 116px;
+  background: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;  
+  border-radius: 8px;
   text-align: center;
   padding: 35px 30px 50px 30px;
   margin: 0 auto;
   margin-top: 50px;
 }
 
-.container .progress-bar .step{
+.container .progress-bar .step {
   text-align: center;
   width: 100%;
   position: relative;
   /* border: 2px solid pink; */
 }
-.container .progress-bar .step p{
+.container .progress-bar .step p {
   font-weight: 500;
   font-size: 16px;
-  color: #C4C4C4;
+  color: #c4c4c4;
   margin-bottom: 20px;
 }
 
-.bullet-first{
+.bullet-first {
   background: #002668 !important;
 }
 
-.step-first{
+.step-first {
   color: #002668 !important;
 }
 
-.progress-bar .step .bullet{
+.progress-bar .step .bullet {
   height: 30px;
   width: 30px;
-  background: #C4C4C4;
+  background: #c4c4c4;
   color: white;
   display: inline-block;
   border-radius: 50%;
@@ -352,31 +352,30 @@ form .page .btns button.next{
   -ms-transition: 0.2s;
   -o-transition: 0.2s;
 }
-.progress-bar .step .bullet.active{
+.progress-bar .step .bullet.active {
   border-color: #002668;
   background: #002668;
 }
-.progress-bar .step .bullet span{
+.progress-bar .step .bullet span {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
-.progress-bar .step .bullet.active span{
+.progress-bar .step .bullet.active span {
   display: none;
 }
 .progress-bar .step .bullet:before,
-.progress-bar .step .bullet:after{
+.progress-bar .step .bullet:after {
   position: absolute;
-  content: '';
+  content: "";
   bottom: 11px;
   height: 3px;
   right: -79px;
   width: 73px;
-  background: #C4C4C4;
+  background: #c4c4c4;
   border-radius: 4px;
-
 }
-.progress-bar .step .bullet.active:after{
+.progress-bar .step .bullet.active:after {
   background: #002668;
   transform: scaleX(0);
   transform-origin: left;
@@ -384,15 +383,15 @@ form .page .btns button.next{
   -webkit-animation: animate 0.3s linear forwards;
 }
 @keyframes animate {
-  100%{
+  100% {
     transform: scaleX(1);
   }
 }
 .progress-bar .step:last-child .bullet:before,
-.progress-bar .step:last-child .bullet:after{
+.progress-bar .step:last-child .bullet:after {
   display: none;
 }
-.progress-bar .step p.active{
+.progress-bar .step p.active {
   color: #002668;
   transition: 0.2s linear;
   -webkit-transition: 0.2s linear;
@@ -400,7 +399,7 @@ form .page .btns button.next{
   -ms-transition: 0.2s linear;
   -o-transition: 0.2s linear;
 }
-.progress-bar .step .check{
+.progress-bar .step .check {
   position: absolute;
   left: 49.8%;
   top: 55%;
@@ -409,17 +408,17 @@ form .page .btns button.next{
   display: none;
 }
 
-.progress-bar .step .check.active{
+.progress-bar .step .check.active {
   display: block;
   color: #fff;
 }
 
-.check-coustom{
+.check-coustom {
   position: absolute;
   left: 5px;
   top: 6px;
   font-size: 18px;
-  color: #002668;;
+  color: #002668;
 }
 
 /* ----------------- check box */
@@ -427,43 +426,43 @@ form .page .btns button.next{
   margin: 35px 0 0 32px;
 }
 
-.address-title p{
+.address-title p {
   text-align: left;
   font-size: 20px;
-line-height: 23px;
-color: #212121;
+  line-height: 23px;
+  color: #212121;
 }
 
-.check-line-first{
+.check-line-first {
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.check-line-second{
-  border-top: 1px solid #C4C4C4;
+.check-line-second {
+  border-top: 1px solid #c4c4c4;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.gray-line{
-  border-top: 1px solid #C4C4C4;
+.gray-line {
+  border-top: 1px solid #c4c4c4;
   padding-top: 24px;
 }
 
-.check-box{
+.check-box {
   display: flex;
   margin-left: 32px;
-  position : relative;
+  position: relative;
 }
 
-.check-box p{
+.check-box p {
   font-size: 20px;
   line-height: 23px;
   color: #002668;
   margin-right: 121px;
 }
 
-.check-box input[type=checkbox] {
+.check-box input[type="checkbox"] {
   margin-right: 16px;
 }
 
@@ -472,15 +471,15 @@ color: #212121;
   margin: 8px;
 }
 
-input[type="checkbox"] {
+.group input[type="checkbox"] {
   display: none;
 }
 
-label {
+.group label {
   position: relative;
 }
 
-label::before {
+.group label::before {
   content: "";
   background: url("./tick icon_selected.svg");
   background-position: center;
@@ -498,13 +497,13 @@ label::before {
   -o-transition: all 0.4s cubic-bezier(0.54, 0.01, 0, 1.49);
 }
 
-input[type="checkbox"]:checked + label::before {
+.group input[type="checkbox"]:checked + label::before {
   transform: scale(1) rotateZ(0deg);
 }
 
-label::after {
+.group label::after {
   content: "";
-  border: 2px solid #002668;;
+  border: 2px solid #002668;
   width: 29px;
   height: 28px;
   position: absolute;
@@ -513,24 +512,24 @@ label::after {
   border-radius: 50%;
 }
 
-.disable-address { 
-  display: none; 
+.disable-address {
+  display: none;
 }
 
-.navbar-disable-address { 
-  display: none !important; 
+.navbar-disable-address {
+  display: none !important;
 }
 
-.enable-address { 
+.enable-address {
   display: block;
 }
 
 /* ----------------------------- first page Let's start------------------------ */
 
-.front-page{
+.front-page {
   width: 809px;
-  height: 483px;
-  background: #FFFFFF;
+  height: 503px;
+  background: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   text-align: center;
@@ -539,7 +538,7 @@ label::after {
   border: 1px solid #fff;
 }
 
-.front-page h1{
+.front-page h1 {
   color: #212121;
   font-size: 40px;
   line-height: 47px;
@@ -547,7 +546,7 @@ label::after {
   margin-bottom: 50px;
 }
 
-.front-page p{
+.front-page p {
   width: 619px;
   height: 145px;
   font-size: 24px;
@@ -557,22 +556,285 @@ label::after {
   margin: 0 auto;
 }
 
-.front-page .lets-start{
+.front-page .welcome-start {
   width: 360px;
   height: 60px;
   background: #002668;
   border-radius: 8px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
+  margin-top: 30px;
+}
+
+.front-page .skip-btn {
+  font-size: 24px;
+  line-height: 36px;
+  color: #002668;
+  display: block;
+  margin-top: 2.4rem;
+  margin-bottom: 5rem;
+  text-decoration: none;
+}
+
+/* ----------------------------- mobile number screen------------------------ */
+
+.mobile-number {
+  width: 809px;
+  height: 503px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 150px;
+  border: 1px solid #fff;
+}
+
+.mobile-number h1 {
+  color: #212121;
+  font-size: 40px;
+  line-height: 47px;
+  margin-top: 7.1rem;
+  margin-bottom: 3.2rem;
+}
+
+.mobile-number .mobile-input {
+  border: 1px solid #002668;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 461px;
+  height: 78px;
+  font-size: 35px;
+  padding-left: 39px;
+  margin-top: 3.2rem;
+  margin-bottom: 9rem;
+}
+
+.mobile-number .mobile-submit {
+  width: 360px;
+  height: 60px;
+  background: #002668;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+/* -----------------------------  OTP screen------------------------ */
+
+.OTP-screen {
+  width: 809px;
+  height: 593px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
   margin-top: 50px;
+  border: 1px solid #fff;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  width: 125px;
+  margin-left: 825rem;
+  margin-top: 5rem;
+  cursor: pointer;
+}
+.back-button img {
+  width: 22px;
+  height: 42.17px;
+  margin-right: 2.3rem;
+}
+.back-button span {
+  font-size: 24px;
+  line-height: 28px;
+  color: #002668;
+}
+
+.OTP-screen h1 {
+  color: #212121;
+  font-size: 32px;
+  line-height: 37px;
+  margin-top: 6.3rem;
+  margin-bottom: 3.9rem;
+}
+
+.OTP-screen p {
+  width: 574px;
+  height: 84px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #505050;
+  margin: 0 auto;
+  margin-bottom: 3.9rem;
+}
+.OTP-screen .otp-number {
+  margin-bottom: 5rem;
+}
+
+.OTP-screen .resend-otp {
+  cursor: not-allowed;
+}
+
+.OTP-screen .otp-text {
+  width: 78px;
+  height: 78px;
+  background: #ffffff;
+  border: 1px solid #002668;
+  border-radius: 8px;
+  font-size: 32px;
+  line-height: 28px;
+  padding: 20px;
+  color: #c4c4c4;
+  margin-right: 14px;
+}
+
+.OTP-screen span {
+  font-size: 20px;
+  line-height: 28px;
+  color: #002668;
+}
+
+.OTP-screen .otp-count {
+  font-size: 16px;
+  line-height: 28px;
+  color: #505050;
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 2.8rem;
+}
+
+.OTP-screen .otp-submit {
+  width: 360px;
+  height: 60px;
+  background: #002668;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+/* ----------------------------- welcome golokal start------------------------ */
+
+.welcome-golokal {
+  width: 809px;
+  height: 639px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 150px;
+  border: 1px solid #fff;
+}
+
+.welcome-golokal h1 {
+  color: #212121;
+  font-size: 40px;
+  line-height: 47px;
+  margin-top: 7rem;
+  margin-bottom: 4.5rem;
+}
+
+.welcome-golokal p {
+  width: 343px;
+  height: 51px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #505050;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.welcome-golokal .business-form-list {
+  margin: 0 auto;
+  margin-top: 5.2rem;
+  margin-bottom: 6.3rem;
+  width: 310px;
+}
+
+/* .business-form-list .details {
+  display: flex;
+  align-items: baseline;
+}
+
+.business-form-list .details input {
+  width: 32px;
+  height: 32px;
+  background: #002668;
+  border-radius: 4px;
+}
+
+.details .service-detail {
+  font-size: 20px;
+  height: 32px;
+  color: #212121;
+  margin-bottom: 20px;
+  text-align: start;
+  margin-left: 1.8rem;
+} */
+
+/* ###### custome checkbox start ####  */
+
+.details input[type="checkbox"] + label {
+  display: block;
+  font-size: 2rem;
+  text-align: start;
+  margin-bottom: 1.9rem;
+  cursor: pointer;
+}
+
+.details input[type="checkbox"] {
+  display: none;
+}
+
+.details input[type="checkbox"] + label:before {
+  content: "\2714";
+  border: 0.1em solid #000;
+  border-radius: 4px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  font-size: 2rem;
+  margin-right: 1.8rem;
+  padding-left: 0.6rem;
+  vertical-align: middle;
+  color: transparent;
+  transition: 0.2s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.details input[type="checkbox"] + label:active:before {
+  transform: scale(0);
+}
+
+.details input[type="checkbox"]:checked + label:before {
+  background-color: #002668;
+  border-color: #002668;
+  color: #fff;
+}
+/* ###### custome checkbox end ####  */
+
+.welcome-golokal .lets-start {
+  width: 360px;
+  height: 60px;
+  background: #002668;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 /* ------------------------- submit page --------------------- */
 
-.submit-page{
+.submit-page {
   width: 809px;
   height: 592px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -584,21 +846,21 @@ label::after {
   margin-top: 139px;
 }
 
-.submit-page img{
+.submit-page img {
   width: 103px;
   height: 103px;
   margin-top: 51px;
   margin-bottom: 37px;
 }
 
-.submit-page h1{
+.submit-page h1 {
   font-size: 36px;
   line-height: 42px;
   color: #212121;
   margin-bottom: 24px;
 }
 
-.submit-page p{
+.submit-page p {
   width: 588px;
   height: 117px;
   font-size: 24px;
@@ -608,7 +870,7 @@ label::after {
   margin: 0 auto;
 }
 
-.submit-page span{
+.submit-page span {
   display: block;
   margin-top: 20px;
   font-size: 24px;
@@ -616,13 +878,13 @@ label::after {
   color: #212121;
 }
 
-.submit-page .done{
+.submit-page .done {
   background: #002668;
   width: 360px;
   height: 60px;
   margin-top: 60px;
   font-size: 20px;
   line-height: 23px;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 8px;
 }
