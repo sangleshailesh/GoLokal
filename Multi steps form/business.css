@@ -264,6 +264,245 @@ form .page .field select {
   margin: 0 auto;
 }
 
+/* ---------------------- Category Selector Dropdown start ------------------------ */
+.dropdown-category {
+  border: 0.5px solid #c4c4c4;
+  border-radius: 8px;
+  width: 463px;
+  height: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.dropdown-category p {
+  padding-left: 15px;
+  font-size: 20px;
+  color: #6e6e6e;
+}
+.dropdown-category img {
+  margin-right: 13px;
+}
+.dropSection {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 525px;
+  height: 837px;
+  margin: 0 auto;
+}
+.drop-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 39px;
+}
+.drop-heading h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #6e6e6e;
+  font-family: Roboto;
+  margin-left: 46px;
+}
+
+.drop-heading img {
+  margin-right: 46px;
+}
+
+.drop-section {
+  border: 0.5px solid #212121;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 434px;
+  height: 618px;
+  margin-top: 23px;
+  margin-left: 45px;
+}
+.drop-section .option {
+  width: 100%;
+  height: 56px;
+  border-bottom: 0.5px solid #212121;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drop-section .removeLine {
+  border-bottom: none;
+}
+
+.drop-section .option p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6e6e6e;
+  margin-left: 23px;
+}
+
+.option img {
+  width: 20px;
+  height: 16px;
+  margin-right: 22px;
+  display: none;
+}
+
+.option.display img {
+  display: block;
+}
+
+.drop-section .button {
+  margin: 0 auto;
+  margin-top: 31px;
+  background: #002668;
+  border-radius: 8px;
+  width: 435px;
+  height: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+/* ---------------------- Category Selector Dropdown end -------------------------- */
+
+/* ---------------------- Days Dropdown start -------------------------- */
+.days-dropdown-category {
+  border: 0.5px solid #c4c4c4;
+  border-radius: 8px;
+  width: 463px;
+  height: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.days-dropdown-category p {
+  margin-left: 15px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #6e6e6e;
+}
+.days-dropdown-category img {
+  margin-right: 13px;
+}
+.days-dropSection {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 525px;
+  height: 837px;
+  margin: 0 auto;
+}
+.days-drop-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 39px;
+}
+.days-drop-heading h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #6e6e6e;
+  font-family: Roboto;
+  margin-left: 46px;
+}
+
+.days-drop-heading img {
+  margin-right: 46px;
+}
+
+.days-dropdownPara p {
+  color: #6e6e6e;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 18px 0 18px 46px;
+  text-align: left;
+}
+
+.days-section {
+  border: 0.5px solid #212121;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 434px;
+  height: 396px;
+  margin-top: 23px;
+  margin-left: 45px;
+}
+.days-section .days {
+  width: 100%;
+  height: 56px;
+  border-bottom: 0.5px solid #212121;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.days-section.display img {
+  display: block;
+}
+
+.days-section .removeLine {
+  border-bottom: none;
+}
+
+.days-section .days p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6e6e6e;
+  margin-left: 23px;
+}
+
+.days img {
+  width: 20px;
+  height: 16px;
+  margin-right: 22px;
+  display: none;
+}
+
+.days.display img {
+  display: block;
+}
+
+.businessTime {
+  font-size: 16px;
+  line-height: 19px;
+  color: #6e6e6e;
+  margin: 27px 0 18px 0;
+}
+
+.startTime input {
+  border: 0.5px solid #212121;
+  border-radius: 8px;
+  width: 434px;
+  height: 56px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 20px;
+}
+.days-section .button {
+  margin: 0 auto;
+  margin-top: 31px;
+  background: #002668;
+  border-radius: 8px;
+  width: 435px;
+  height: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+/* ---------------------- Days Dropdown end -------------------------- */
+
 .second-side-field button {
   width: 254px;
   height: 100%;
@@ -481,7 +720,7 @@ form .page .btns button.next {
 
 .group label::before {
   content: "";
-  background: url("./tick icon_selected.svg");
+  background: url("./right-arrow-circle.svg");
   background-position: center;
   background-size: contain;
   width: 32px;
